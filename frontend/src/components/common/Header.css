@@ -1,0 +1,19 @@
+/* src/components/common/Header.css */
+.header {
+  background-color: orange;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: top 0.3s;
+}
+
+.header.hidden {
+  top: -50px; /* Adjust according to the height of the header */
+}
+
+.header h1 {
+  color: white; /* Change the color to white */
+}

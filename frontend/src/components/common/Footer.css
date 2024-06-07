@@ -1,0 +1,10 @@
+/* src/components/common/Footer.css */
+.footer {
+  background-color: orange;
+  color: white;
+  padding: 0;
+  text-align: center;
+  position: fixed; /* Change to fixed positioning */
+  width: 100%;
+  bottom: 0;
+}
