@@ -1,60 +1,54 @@
 /* src/components/pages/Home.css */
 
 .home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
-  padding-bottom: 85px; /* Add padding to accommodate the fixed footer */
+  background-color: #fff;
 }
 
 .home-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: 1200px;
   margin-bottom: 20px;
-  text-align: center; /* Center the content horizontally */
+}
+
+.home-left-content,
+.home-right-content {
+  flex: 1;
 }
 
 .home-heading {
-  margin-bottom: 40px;
-}
-
-.home-left-content {
-  flex: 1;
-  padding-right: 40px;
-  padding-left: 80px;
-}
-
-.home-right-content {
-  flex: 1;
-  padding-left: 40px;
-  padding-right: 80px;
+  color: orange;
 }
 
 .home-paragraph {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  text-align: justify;
 }
 
 .home-image {
-  padding-top: 40px;
-  width: 80%; /* Stretch the image to be wide */
-  max-height: 200px; /* Adjust the height as per your preference */
+  max-width: 100%;
+  height: auto;
 }
 
 .home-button-container {
   display: flex;
-  flex-direction: column; /* Arrange items in a column */
-  align-items: center; /* Center items horizontally */
-  margin-top: 20px; /* Add margin to separate the button from other content */
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .home-button {
-  display: inline-block;
-  padding: 10px 20px;
   background-color: orange;
   color: white;
-  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
   border-radius: 5px;
-  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .home-button:hover {

@@ -1,7 +1,40 @@
 /* src/components/pages/About.css */
 .about-container {
-    padding: 20px;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
 
-  }
+.about-left {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.about-image {
+  width: 50%;
+  height: auto;
   
+}
+
+.about-right {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.about-heading {
+  margin-bottom: 20px;
+}
+
+.about-section {
+  margin-bottom: 30px;
+}
+
+.about-subheading {
+  margin-bottom: 10px;
+}
+
+.about-text {
+  margin-bottom: 15px;
+}

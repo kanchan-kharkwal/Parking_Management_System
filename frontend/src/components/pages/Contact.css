@@ -1,6 +1,28 @@
 /* src/components/pages/Contact.css */
 .contact-container {
-    padding: 20px;
-    text-align: center;
-  }
-  
+  display: flex;
+}
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-right {
+  flex: 1;
+}
+
+.contact-content {
+  padding: 20px;
+}
+
+.contact-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure the image container takes full height */
+}
+
+.contact-image {
+  max-width: 100%;
+  max-height: 100%;
+}

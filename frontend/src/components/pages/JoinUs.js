@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './JoinUs.css';
 
-const Dashboard = () => {
+const JoinUs = () => {
   const [showDropdown, setShowDropdown] = useState(false);
 
   const toggleDropdown = () => {
@@ -16,8 +16,8 @@ const Dashboard = () => {
       <div className="dropdown">
 
       <button onClick={toggleDropdown} className="dropdown-toggle">
-          Select Authentication
-        </button>
+        Select Authentication
+      </button>
         {showDropdown && (
           <div className="dropdown-menu">
             <Link to="/auth?type=user" className="dropdown-item">User Login/Sign Up</Link>
@@ -51,4 +51,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default JoinUs;

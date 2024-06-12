@@ -1,7 +1,6 @@
 // src/components/auth/AuthPage.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
 // import { Link } from 'react-router-dom';
 import GoogleOAuth from '../common/GoogleOAuth';
 import './Auth.css';

@@ -32,13 +32,11 @@ const Home = () => {
 
       <div className="home-button-container">
         <div>
-          <p >
-             Join us in reimagining the parking experience today!
-          </p>
+          <p>Join us in reimagining the parking experience today!</p>
         </div>
-          <div>
+        <div>
           <Link to="/dashboard" className="home-button">Signup</Link>
-          </div>
+        </div>
       </div>
     </div>
   );
