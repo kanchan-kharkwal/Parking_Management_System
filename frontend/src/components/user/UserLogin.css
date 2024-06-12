@@ -1,7 +1,8 @@
 /* src/components/user/UserLogin.css */
 .user-login-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  padding-left: 60px;
   align-items: center;
   height: 100vh;
   background-color: #fff;
@@ -36,6 +37,9 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+.user-login-form p{
+  text-align: center;
 }
 
 .user-login-form button:hover {
