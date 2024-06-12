@@ -4,7 +4,7 @@ import { GoogleOAuthProvider, GoogleLogin } from '@react-oauth/google';
 
 const GoogleOAuth = ({ onSuccess, onFailure }) => {
   return (
-    <GoogleOAuthProvider clientId="your-client-id.apps.googleusercontent.com">
+    <GoogleOAuthProvider clientId="710099309781-k19136cosb63dpbpvg77tokfmthcmts6.apps.googleusercontent.com">
       <GoogleLogin
         onSuccess={onSuccess}
         onFailure={onFailure}
