@@ -8,9 +8,7 @@ const ManageUsers = () => {
     const [selectedUser, setSelectedUser] = useState(null);
     const [users, setUsers] = useState([
         { id: 1, vehicleNumber: 'ABC123', name: 'Kanchan', email: 'kanchan@example.com', inTime: '08:00', outTime: '16:00', status: 'Active' },
-        { id: 2, vehicleNumber: 'DEF456', name: 'Gandu', email: 'gandu@example.com', inTime: '09:00', outTime: '17:00', status: 'Inactive' },
-        { id: 3, vehicleNumber: 'GHI789', name: 'Kyu', email: 'kyu@example.com', inTime: '10:00', outTime: '18:00', status: 'Active' },
-        { id: 4, vehicleNumber: 'JKL012', name: 'Hai', email: 'hai@example.com', inTime: '11:00', outTime: '19:00', status: 'Inactive' },
+        { id: 2, vehicleNumber: 'DEF456', name: 'Rachit', email: 'rachit@example.com', inTime: '09:00', outTime: '17:00', status: 'Inactive' },
     ]);
 
     const fetchUsers = async () => {
