@@ -22,12 +22,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'parking',
     'django.contrib.sites',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
+    'parking',
 ]
 
 
@@ -40,7 +40,10 @@ SITE_ID = 1
 
 
 # Configure email and password authentication
+ACCOUNT_LOGOUT_REDIRECT_URL = '/'
 ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_UNIQUE_EMAIL = True
+ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
@@ -54,6 +57,11 @@ SOCIALACCOUNT_PROVIDERS = {
         'AUTH_PARAMS': {
             'access_type': 'online',
         },
+        'APP': {
+            'client_id': '710099309781-k19136cosb63dpbpvg77tokfmthcmts6.apps.googleusercontent.com',
+            'secret': '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',
+            'key': ''
+        }
     }
 }
 
@@ -67,6 +75,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+     'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'backend.urls'
@@ -93,9 +102,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'parking_management_db',
-        'USER': 'your_postgres_user',
-        'PASSWORD': 'your_postgres_password',
+        'NAME': 'parking_management_system',
+        'USER': 'spacesync',
+        'PASSWORD': 'spacesync',
         'HOST': 'localhost',
         'PORT': '5432',
     }
