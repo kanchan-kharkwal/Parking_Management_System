@@ -1,8 +1,8 @@
 # Create your views here.
 
 from rest_framework import viewsets
-from .models import Admin, User, ParkingSlot
-from .serializers import AdminSerializer, UserSerializer, ParkingSlotSerializer
+from .models import Admin, User, ParkingSlot, Reservation
+from .serializers import AdminSerializer, UserSerializer, ParkingSlotSerializer, ReservationSerializer
 
 class AdminViewSet(viewsets.ModelViewSet):
     queryset = Admin.objects.all()
@@ -15,3 +15,8 @@ class UserViewSet(viewsets.ModelViewSet):
 class ParkingSlotViewSet(viewsets.ModelViewSet):
     queryset = ParkingSlot.objects.all()
     serializer_class = ParkingSlotSerializer
+
+
+class ReservationViewSet(viewsets.ModelViewSet):
+    queryset = Reservation.objects.all()
+    serializer_class = ReservationSerializer    
