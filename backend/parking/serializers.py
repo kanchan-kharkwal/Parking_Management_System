@@ -1,6 +1,6 @@
 
 from rest_framework import serializers
-from .models import Admin, User, ParkingSlot
+from .models import Admin, User, ParkingSlot, Reservation
 
 class AdminSerializer(serializers.ModelSerializer):
     class Meta:
@@ -16,3 +16,9 @@ class ParkingSlotSerializer(serializers.ModelSerializer):
     class Meta:
         model = ParkingSlot
         fields = '__all__'
+
+
+class ReservationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Reservation
+        fields = '__all__'        
