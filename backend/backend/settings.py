@@ -3,14 +3,12 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 SECRET_KEY = 'django-insecure-*$ti+gz^qf9a0&3*ur@583@_3dymotdx*4_z&@&i$^bcgmk8+o'
 
 # don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -29,7 +27,6 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.google',
     'parking',
 ]
-
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
