@@ -58,8 +58,6 @@ SOCIALACCOUNT_PROVIDERS = {
             'access_type': 'online',
         },
         'APP': {
-            'client_id': '710099309781-k19136cosb63dpbpvg77tokfmthcmts6.apps.googleusercontent.com',
-            'secret': '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',
             'key': ''
         }
     }
