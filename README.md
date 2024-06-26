@@ -5,20 +5,22 @@
 
 To run this project locally on your system, follow these steps:
 
+
 ### Prerequisites
 
-- Git
-- Node.js
-- Python (and pip)
-- Django
+Make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (v14.x or higher recommended)
+- [npm](https://www.npmjs.com/get-npm) (v6.x or higher)
+- [MongoDB](https://www.mongodb.com/try/download/community) (Ensure it's running on your machine)
 
 ### Clone the Repository
 
-Clone the repository to your local machine using the following command:
-
 ```bash
-git clone Parking_Management_System
+git clone https://github.com/5gada-software/pms.git
 cd Parking_Management_System
+```
+
 
 ### Frontend Setup
 
