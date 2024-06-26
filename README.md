@@ -22,7 +22,6 @@ Make sure you have the following installed on your machine:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/5gada-software/pms.git
 cd Parking_Management_System
 ```
 
