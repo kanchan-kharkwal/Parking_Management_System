@@ -22,6 +22,7 @@ Make sure you have the following installed on your machine:
 ### Clone the Repository
 
 ```bash
+git clone 
 cd Parking_Management_System
 ```
 
