@@ -1,24 +1,12 @@
-/* src/App.css */
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-family: Arial, sans-serif;
+::-webkit-scrollbar {
+  width: 4px;
 }
 
-#root {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
-  flex:1;
-}
-
-.app-content {
-  padding-top: 20px;  
-  padding-bottom: 60px;
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
