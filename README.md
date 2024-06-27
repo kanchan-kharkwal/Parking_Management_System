@@ -36,6 +36,11 @@ cd backend
 npm run dev
 ```
 
+```
+npm i dotenv
+.env is also needed which ca'nt be shared here but can given if and when needed
+```
+
 
 ### Frontend Setup
 
