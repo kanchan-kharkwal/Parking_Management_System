@@ -94,7 +94,8 @@ We welcome contributions from the community. To contribute, follow these steps:
 5. Open a pull request.
 
 ## Made By 
-Rachit Sharma 
-Kanchan Kharkwal
+ 
+  Rachit Sharma 
+  Kanchan Kharkwal
 
 For any inquiries or support, please contact us at [kharkwal.kanchan31@gmail.com](mailto:kharkwal.kanchan31@gmail.com).
