@@ -2,7 +2,7 @@
 
 ## Introduction
 
-      Space-Sync is a comprehensive parking management system designed to streamline the process of parking space allocation and usage within a parking lot. 
+Space-Sync is a comprehensive parking management system designed to streamline the process of parking space allocation and usage within a parking lot. 
 This project aims to assist both administrators and users by providing a synchronized platform to efficiently manage and utilize parking spaces. 
 With a user-friendly interface and robust backend, Space-Sync ensures that parking operations are seamless and hassle-free.
 
