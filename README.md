@@ -65,7 +65,7 @@ npm run dev
 ```
 npm i dotenv
 ```
-!Note: An .env file is required for configuration. This file cannot be shared publicly but can be provided upon request.
+**_NOTE:_**  An .env file is required for configuration. This file cannot be shared publicly but can be provided upon request.
 
 
 ### Frontend Setup
