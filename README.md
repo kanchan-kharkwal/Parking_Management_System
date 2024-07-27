@@ -1,6 +1,7 @@
 # Parking_Management_System (Space-Sync)
 
 
+
 ## Getting Started
 
 To run this project locally on your system, follow these steps:
@@ -51,3 +52,6 @@ npm i
 npm run dev
 ```
 
+## Made By 
+Rachit Sharma 
+Kanchan Kharkwal
