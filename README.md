@@ -1,5 +1,30 @@
 # Parking_Management_System (Space-Sync)
 
+## Introduction
+
+      Space-Sync is a comprehensive parking management system designed to streamline the process of parking space allocation and usage within a parking lot. 
+This project aims to assist both administrators and users by providing a synchronized platform to efficiently manage and utilize parking spaces. 
+With a user-friendly interface and robust backend, Space-Sync ensures that parking operations are seamless and hassle-free.
+
+
+## Index
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Running the Project](#running-the-project)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [Made By](#made-by)
+
+## Features
+
+- **Real-time Parking Space Availability:** View the current status of parking spaces in real-time.
+- **User Management:** Register and manage user accounts with ease.
+- **Reservation System:** Reserve parking spaces in advance to ensure availability.
+- **Admin Dashboard:** Admins can monitor and manage the entire parking system.
+- **Notifications:** Receive notifications about parking space status and reservations.
+- **Analytics:** Gain insights into parking usage patterns and optimize space allocation.
 
 
 ## Getting Started
@@ -39,8 +64,8 @@ npm run dev
 
 ```
 npm i dotenv
-.env is also needed which ca'nt be shared here but can given if and when needed
 ```
+!Note: An .env file is required for configuration. This file cannot be shared publicly but can be provided upon request.
 
 
 ### Frontend Setup
@@ -52,6 +77,24 @@ npm i
 npm run dev
 ```
 
+### Technologies Used
+
+* **Frontend**: React, CSS, HTML
+* **Backend**: Node.js, Express
+* **Database**: MongoDB
+
+## Contributing
+
+We welcome contributions from the community. To contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
 ## Made By 
 Rachit Sharma 
 Kanchan Kharkwal
+
+For any inquiries or support, please contact us at [kharkwal.kanchan31@gmail.com](mailto:kharkwal.kanchan31@gmail.com).
